@@ -29,10 +29,10 @@ $i++;
 /* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'cookie';
 /* Server parameters */
-$cfg['Servers'][$i]['host'] = 'qlsdb.co8hm2var4k9.eu-west-1.rds.amazonaws.com';
+$cfg['Servers'][$i]['host'] = 'mysqlsdb.co8hm2var4k9.eu-west-1.rds.amazonaws.com';
 $cfg['Servers'][$i]['connect_type'] = 'tcp';
 $cfg['Servers'][$i]['compress'] = false;
-$cfg['Servers'][$i]['AllowNoPassword'] = false;
+$cfg['Servers'][$i]['AllowNoPassword'] = true;
 
 /*
  * phpMyAdmin configuration storage settings.
